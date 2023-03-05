@@ -1,0 +1,84 @@
+.historyElementContainer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 18px;
+}
+.time {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #64748b;
+  font-size: 13px;
+}
+.domainLogo {
+  width: 30px;
+  height: 30px;
+}
+.domainNameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.imageLogoContainer {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 14px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.domainUrl {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+  padding-left: 14px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.buttonElement {
+  background-color: #ffffff;
+  border-radius: 0px;
+  border-width: 0px;
+  text-align: end;
+  cursor: pointer;
+  outline: none;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .historyElementContainer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .domainNameContainer {
+    flex-direction: row;
+  }
+  .domainLogo {
+    margin-top: 10px;
+    margin-left: 34px;
+  }
+  .title {
+    padding-left: 18px;
+    margin-top: 15px;
+  }
+  .domainUrl {
+    margin-top: 18px;
+    padding-left: 12px;
+  }
+  .buttonElement {
+    margin-top: 15px;
+  }
+}
